@@ -6,3 +6,6 @@ find_path( GLEW_LIB glew32s.lib PATHS ${CMAKE_CURRENT_LIST_DIR}/lib64 )
 set(Glew_LIBRARIES ${GLEW_LIB}/glew32s.lib opengl32.lib)
  
 include_directories( ${GLEW_INCLUDE} )
+
+macro(AziGlew)
+endmacro(AziGlew)
